@@ -7,11 +7,20 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
 }
+
 
 h1 {
     color: darkblue;
 }
+
+
+main {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 
 main img {
     width: 200px;
@@ -21,38 +30,32 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
+
 p {
-    padding: 0px;
+    padding: 0;
+    line-height: 1.6;
 }
 
-main {
-    max-width: 840px;
-}
-
-main p {
-    text-align: justify;
-}
 
 aside {
     width: 300px;
-    height: auto;
-    margin: 10px;
-    border: 10px rgb(228, 8, 38);
+    margin: 10px auto;
+    border: 2px solid rgb(228, 8, 38);
     padding: 1rem;
-    background-color: 2px skyblue, 3px rgb(255, 255, 70);
-    box-shadow: solid skyblue, black;
-    color: rgb(5, 15, 24), gray;
+    background-color: skyblue;
+    color: rgb(5, 15, 24);
     text-align: center;
+    box-shadow: 0 0 10px black;
 }
+
 
 aside img {
-    width: 300px;
-    height: auto 100px;
-    border:  0px whitesmoke;
-    box-shadow: 40px solid black;
+    width: 200px;
+    height: auto;
+    border: 0;
+    box-shadow: 0 0 10px gray;
 }
 
-p { padding: 0;}
 
 footer {
     margin-top: 15px;
