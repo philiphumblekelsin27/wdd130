@@ -1,3 +1,31 @@
+
+/* used the css variable for testing */
+
+:root {
+  --heading-background-color: rgb(111, 117, 170);
+  --heading-text-color: #333;
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --padding: 1rem;
+  --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
+/* Some example variable use in the declarations. */
+
+h1 {
+  background-color: var(--heading-background-color);
+  color: var(--heading-text-color);
+  font-family: var(--heading-font);
+  padding: var(--padding);
+}
+
+* {
+  margin: 10px auto;
+  padding: var(--padding);
+  box-shadow: 0 0 10px rgba(109, 9, 240, 0.1);
+}
+/* the example */
+
+
 * {
     margin: 0;
     padding: 0;
