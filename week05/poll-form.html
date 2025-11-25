@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM - USER POLL</title>
+    <link rel="stylesheet" href="styles/pool-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML FORM - USER POLL</h1>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item1">
+                        <label for="fullname">Full Name:</label>
+                        <input type="text" id="fullnmae" name="FullName" required>
+                    </div>
+                    <div class="form-item2">
+                        <label for="useremail">Email:</label>
+                        <input type="email" id="UserEmail" name="UserEmail" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Questions</legend>
+                    <!-- <label>email: <input type="email" name="User" required></label> -->
+                    <div class="column1">
+                        <label for="pet">Do you Have a household Pet</label>
+                        <input type="Checkbox" id="pet" name="pet">
+                    </div>
+                    <div class="column2">
+                        <label for="quantity">Select Quantity</label>
+                        <select name="quantity" id="quantity">
+                            <option id="<None-Selected>">None-selected</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+
+                    <div class="column3">
+                        <label for="browser">What Is You'r Favorite Place</label>
+                        <select id="browser" name="browser">
+                            <option value="<none-Selected>">None selected</option>
+                            <option value="Beach">Beach</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Russia">Russia</option>
+                        </select>
+                    </div>
+                    <div class="column4">
+                        <label for="feedback">List the places you have lived:</label>
+                    </div>
+
+                    <div class="column5">
+                        <textarea id="feedback" name="feedback" rows="4"
+                            placeholder=" E.G: ouenze, brazzaville,point-noire, canada,madagascar,  Mali"></textarea>
+                    </div>
+                    <div class="column6">
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+    </header>
+    <footer>
+        <p>@ 2025 | USER - POLL ACTIVITY | PHILIP HUMBLE KELSIN </p>
+    </footer>
+</body>
+
+</html>

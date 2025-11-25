@@ -38,7 +38,7 @@
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
   "liveServer.settings.port": 5504,
-  "livePreview.defaultPreviewPath": "/week02/block-vs-inline.html",
+  "livePreview.defaultPreviewPath": "/week05/poll-form.html",
   "C_Cpp.default.intelliSenseMode": "windows-clang-x64",
   "cSpell.words": [
     "Kelsin"

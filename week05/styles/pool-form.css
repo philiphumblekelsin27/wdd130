@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace, Georgia, Serif;
+    font-size: 1.2rem;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 15px;
+    font-size: 25px;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 10px;
+    background-color: #eee;
+    display: grid;
+}
+
+label:hover {
+    color: rgb(228, 9, 42);
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 10px ;
+    background-color: rgb(228, 171, 13);
+    color: #111010f8;
+    border: none;
+    border-radius: 5px 10px 15px 20px 25px;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgba(255, 0, 0, 0.63);
+}
+
+
+
+.form-item1 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+}
+
+
+
+.form-item2 {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 150px 1fr;
+    gap: 1rem;
+}
+
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 15px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 5px;
+}
+
+.column3 {
+    grid-template-columns: 10px;
+    margin: 5px;
+}
+
+.column4 {
+    grid-template-columns: 10px;
+    margin: 5px;
+}
+
+.column5 {
+    grid-template-columns: 10px;
+    margin: 5px;
+}
+
+.column6 {
+    grid-template-columns: 10px;
+    margin: 5px;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: black;
+    border-top: 1px solid #ccc;
+}
+
