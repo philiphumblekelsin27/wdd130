@@ -37,12 +37,11 @@ header {
 /* Navigation */
 nav {
   display: flex;
-  justify-content: flex-end; /* pushes links to the right */
-  gap: 20px; /* spacing between links */
+  justify-content: flex-end;
+  gap: 20px;
   background-color: var(--primary-color);
   padding: 10px;
 }
-
 
 nav a {
   color: white;
@@ -101,7 +100,6 @@ section {
   border-radius: 5px;
 }
 
-
 .adventures {
   display: flex;
   justify-content: space-between;
@@ -117,7 +115,6 @@ section {
   width: 100%;
   border-radius: 5px;
 }
-
 
 /* Headings */
 h1, h2 {
@@ -149,9 +146,7 @@ footer {
   margin: 0 5px;
 }
 
-
 /* Contact Page Styles */
-
 .contact-hero {
     text-align: center;
     padding: 2rem;
