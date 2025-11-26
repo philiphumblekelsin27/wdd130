@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact White Water Rafting Adventures for inquiries, reservations, and customer support.">
+    <meta name="author" content="Philip Humble Kelsin Lucian">
+    <title>Contact Us | White Water Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/image.jpg" alt="Rafting Site Logo" width="150">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="contact-hero">
+            <h1>Contact Us</h1>
+            <p>We’re here to answer your questions and get you ready for your next big adventure.</p>
+        </section>
+
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <p><strong>Address:</strong> 123 Snake River Road, Jackson WY 83001</p>
+            <p><strong>Phone:</strong> +1 (208) 555-0134</p>
+            <p><strong>Email:</strong> info@raftingadventures.com</p>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.3099234987066!2d-110.7692!3d43.4799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53531a3b7067da5f%3A0x7e7c5b51d4b8!2sSnake%20River!5e0!3m2!1sen!2sus!4v1702326400000"
+                    allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/employee1.webp" alt="Guide Leader">
+                    <figcaption>Mark Stone – Lead River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpeg" alt="Safety Officer">
+                    <figcaption>Sarah Brooks – Safety Officer</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpeg" alt="Customer Service">
+                    <figcaption>Daniel Reed – Customer Support</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <h2>Send Us a Message</h2>
+
+            <form method="post" action="#">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="user_name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="user_email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message</legend>
+
+                    <label>
+                        <input type="radio" name="purpose" value="General Inquiry" required>
+                        General Inquiry
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="Reservation Question">
+                        Reservation Question
+                    </label>
+
+                    <label>
+                        <input type="radio" name="purpose" value="Website Suggestion">
+                        Website Suggestion
+                    </label>
+                </fieldset>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" name="user_message" rows="5" required></textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" name="newsletter">
+                    Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit">Send Message Now</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 White Water Rafting Adventures | Philip Humble Kelsin Lucian</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
