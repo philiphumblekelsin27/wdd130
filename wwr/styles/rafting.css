@@ -13,7 +13,6 @@
 :root {
     --primary-color: #0077b6;
     --primary-dark: #003366;
-    --accent1-color: #00b4d8;
     --accent2-color: #90e0ef;
     --heading-font: 'Montserrat', sans-serif;
     --body-font: 'Open Sans', sans-serif;
@@ -93,9 +92,8 @@ nav a:hover {
 
 .hero h1 {
     top: 20px;
-    bottom: 1 0 3px;
+    bottom: 10px;
     width: 90%;
-    height: 100px;
     text-align: center;
     background: rgba(0, 119, 182, 0.7);
     font-family: var(--heading-font);
